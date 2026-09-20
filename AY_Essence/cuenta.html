@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Mi cuenta | A&Y Essence</title>
+
+    <link rel="stylesheet"
+          href="css/estilos.css">
+
+</head>
+
+<body>
+
+
+<header class="header">
+
+    <a href="index.html"
+       class="logo">
+
+        <img
+            src="img/logo.png"
+            alt="A&Y Essence">
+
+    </a>
+
+</header>
+
+
+<main class="cuenta">
+
+
+<!-- INICIAR SESIÓN -->
+
+<section id="login"
+         class="formulario-cuenta">
+
+    <img
+        src="img/logo.png"
+        alt="A&Y Essence">
+
+    <h1>
+        Iniciar sesión
+    </h1>
+
+    <p>
+        Ingresa a tu cuenta de A&Y Essence.
+    </p>
+
+
+    <form id="form-login">
+
+        <label for="login-correo">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="login-correo"
+            required>
+
+
+        <label for="login-password">
+            Contraseña
+        </label>
+
+        <input
+            type="password"
+            id="login-password"
+            required>
+
+
+        <button type="submit"
+                class="boton">
+
+            Iniciar sesión
+
+        </button>
+
+    </form>
+
+
+    <p>
+        ¿No tienes una cuenta?
+    </p>
+
+    <button
+        id="mostrar-registro"
+        class="boton-secundario">
+
+        Crear una cuenta nueva
+
+    </button>
+
+</section>
+
+
+<!-- REGISTRO -->
+
+<section id="registro"
+         class="formulario-cuenta oculto">
+
+    <img
+        src="img/logo.png"
+        alt="A&Y Essence">
+
+    <h1>
+        Crear una cuenta
+    </h1>
+
+
+    <form id="form-registro">
+
+        <label for="nombre-registro">
+            Nombre
+        </label>
+
+        <input
+            type="text"
+            id="nombre-registro"
+            required>
+
+
+        <label for="apellido-registro">
+            Apellido
+        </label>
+
+        <input
+            type="text"
+            id="apellido-registro"
+            required>
+
+
+        <label for="correo-registro">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correo-registro"
+            required>
+
+
+        <label for="password-registro">
+            Contraseña
+        </label>
+
+        <input
+            type="password"
+            id="password-registro"
+            required>
+
+
+        <label for="confirmar-password">
+            Confirmar contraseña
+        </label>
+
+        <input
+            type="password"
+            id="confirmar-password"
+            required>
+
+
+        <button type="submit"
+                class="boton">
+
+            Registrarse
+
+        </button>
+
+    </form>
+
+
+    <p>
+        ¿Ya tienes una cuenta?
+    </p>
+
+    <button
+        id="mostrar-login"
+        class="boton-secundario">
+
+        Iniciar sesión
+
+    </button>
+
+</section>
+
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

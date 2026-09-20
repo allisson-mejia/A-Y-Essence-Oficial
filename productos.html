@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Productos | A&Y Essence</title>
+
+    <link rel="stylesheet"
+          href="css/estilos.css">
+
+</head>
+
+<body>
+
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="img/logo.png"
+             alt="A&Y Essence">
+    </a>
+
+    <button class="menu-toggle"
+            id="menu-toggle">
+        ☰
+    </button>
+
+    <nav class="nav" id="nav">
+
+        <a href="index.html">
+            Inicio
+        </a>
+
+        <a href="productos.html"
+            class="activo">
+            Productos
+        </a>
+
+        <a href="nosotros.html">
+            Sobre nosotros
+        </a>
+
+        <a href="contacto.html">
+            Contáctanos
+        </a>
+
+    </nav>
+
+    <div class="iconos">
+
+        <a href="buscar.html">
+            🔍
+        </a>
+
+        <a href="cuenta.html">
+            👤
+        </a>
+
+        <a href="carrito.html"
+            class="carrito-icono">
+
+            🛒
+
+            <span id="contador-carrito">
+                0
+            </span>
+
+        </a>
+
+    </div>
+
+</header>
+
+
+<main class="productos-pagina">
+
+    <div class="titulo-pagina">
+
+        <h1>
+            Nuestros perfumes
+        </h1>
+
+        <p>
+            Encuentra la fragancia perfecta para ti.
+        </p>
+
+    </div>
+
+
+    <div class="catalogo">
+
+
+        <!-- FILTROS -->
+
+        <aside class="filtros">
+
+            <h2>
+                Filtrar por
+            </h2>
+
+
+            <div class="filtro-grupo">
+
+                <h3>
+                    Categorías
+                </h3>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="todos">
+
+                    Todos
+
+                </button>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="dama">
+
+                    Dama
+
+                </button>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="caballero">
+
+                    Caballero
+
+                </button>
+
+            </div>
+
+
+            <div class="filtro-grupo">
+
+                <h3>
+                    Precio
+                </h3>
+
+                <button
+                    class="orden-btn"
+                    data-orden="menor">
+
+                    Menor a mayor
+
+                </button>
+
+                <button
+                    class="orden-btn"
+                    data-orden="mayor">
+
+                    Mayor a menor
+
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- PRODUCTOS -->
+
+        <section class="catalogo-productos">
+
+            <div class="catalogo-encabezado">
+
+                <h2>
+                    Todos los productos
+                </h2>
+
+            </div>
+
+
+            <div class="productos-grid"
+                    id="productos-container">
+
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="750">
+
+                    <img
+                        src="img/Ariana Moonlight.jpg"
+                        alt="Floral Frutal">
+
+                    <h3>
+                        Body Ariana Grande Moonlight
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 750
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Perfume Floral"
+                        data-precio="750">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="750">
+
+                    <img
+                        src="img/Ariana Thanks.jpg"
+                        alt="floral frutal">
+
+                    <h3>
+                        Body Ariana Grande Thanks U Next
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 750
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre=" Body Ariana Grande Thanks U Next"
+                        data-precio="750">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                 <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="150">
+
+                    <img
+                        src="img/Philosophy Lavender.jpg"
+                        alt="Aromatica floral">
+
+                    <h3>
+                        Body Philosophy Lavender
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 150
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre=" Body Philosophy Lavender"
+                        data-precio="150">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+            <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="150">
+
+                    <img
+                        src="img/Philosophy Vainilla.jpg"
+                        alt="Vainilla">
+
+                    <h3>
+                        Body Philosophy Vainilla
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 150
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre=" Body Philosophy Vainilla"
+                        data-precio="150">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+            <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="150">
+
+                    <img
+                        src="img/Philosophy x86.jpg"
+                        alt="Floral frutal Gourmand">
+
+                    <h3>
+                        Body Philosophy 86 Dulce/Brazilian Jasmine
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 150
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Philosophy 86 Dulce/Brazilian Jasmine"
+                        data-precio="150">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+        <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="780">
+
+                    <img
+                        src="img/Vs Love Spell Shimmer.jpg"
+                        alt="Floral frutal">
+
+                    <h3>
+                        Body Victoria´s Secret Love Spell Shimmer
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 780
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Victoria´s Secret Love Spell Shimmer"
+                        data-precio="780">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="780">
+
+                    <img
+                        src="img/Vs Pure shimmer.jpg"
+                        alt="Floral frutal">
+
+                    <h3>
+                        Body Victoria´s Secret Pure Seduction Shimmer
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 780
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Victoria´s Secret Pure Seduction Shimmer"
+                        data-precio="780">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="780">
+
+                    <img
+                        src="img/Vs vainilla Shimmer.jpg"
+                        alt="Vainilla">
+
+                    <h3>
+                        Body Victoria´s Secret Vainilla Shimmer
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 780
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Victoria´s Secret Vainilla Shimmer"
+                        data-precio="780">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="780">
+
+                    <img
+                        src="img/Vs Pure.jpg"
+                        alt="Floral frutal">
+
+                    <h3>
+                        Body Victoria´s Secret Pure Seduction
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 780
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Victoria´s Secret Pure Seduction"
+                        data-precio="780">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="dama"
+                    data-precio="780">
+
+                    <img
+                        src="img/Vs velvet.jpg"
+                        alt="Floral frutal calida">
+
+                    <h3>
+                        Body Victoria´s Secret Velvet Petals Vacation
+                    </h3>
+
+                    <p class="categoria">
+                        Dama
+                    </p>
+
+                    <p class="precio">
+                        C$ 780
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Victoria´s Secret Velvet Petals Vacation"
+                        data-precio="780">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Club de nuit.jpg"
+                        alt="Amaderada Especiada">
+
+                    <h3>
+                        Body Club de Nuit
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Club de Nuit"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Odsyssey EAU.jpg"
+                        alt="Oriental Vainilla">
+
+                    <h3>
+                        Body Odyssey Eau De Montagne
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Odyssey Eau De Montagne"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Odyssey For men.jpg"
+                        alt="Vainilla oscura, calida y especiada">
+
+                    <h3>
+                        Body Odyssey Homme (For men)
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Odyssey Homme (For men)"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                
+            <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Odyssey Go.jpg"
+                        alt="Tropical">
+
+                    <h3>
+                        Body Odyssey Go Mango
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Odyssey Go Mango"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Odyssey Revolution.jpg"
+                        alt="Aromatica Frutal">
+
+                    <h3>
+                        Body Odyssey Revolution
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Odyssey Revolution"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Odyssey Spectra.jpg"
+                        alt="Oriental Especiada">
+
+                    <h3>
+                        Body Odyssey Spectra
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Odyssey Spectra"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+                <article
+                    class="producto-card producto"
+                    data-categoria="caballero"
+                    data-precio="550">
+
+                    <img
+                        src="img/Odyssey white.jpg"
+                        alt="Dulzura moderna">
+
+                    <h3>
+                        Body Odyssey Homme (White Edition)
+                    </h3>
+
+                    <p class="categoria">
+                        Caballero
+                    </p>
+
+                    <p class="precio">
+                        C$ 550
+                    </p>
+
+                    <button
+                        class="agregar-carrito"
+                        data-nombre="Body Odyssey Homme (White Edition)"
+                        data-precio="550">
+
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer class="footer">
+
+    <div>
+
+        <img
+            src="img/logo.png"
+            alt="A&Y Essence">
+
+    </div>
+
+    <div>
+
+        <h3>
+            Enlaces rápidos
+        </h3>
+
+        <a href="index.html">
+            Inicio
+        </a>
+
+        <a href="productos.html">
+            Productos
+        </a>
+
+        <a href="nosotros.html">
+            Sobre nosotros
+        </a>
+
+        <a href="contacto.html">
+            Contáctanos
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
